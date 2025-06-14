@@ -1,3 +1,19 @@
 body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
+
+.toplink {
+    color:#9ba3b4;
+    cursor: pointer;
+    padding: 12px;
+}
+.BgImage {
+    background-image: url("https://code.visualstudio.com/assets/home/hero-background.webp");
+    width: 1240px;
+    height: 831px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    min-width: 992px;
+}
