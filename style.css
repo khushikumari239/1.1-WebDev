@@ -16,4 +16,12 @@ body {
     align-items: center;
     border-radius: 9px;
     min-width: 992px;
+  
+}
+.hero-text {
+color: #9ba3b4;
+flex-direction: column;
+text-align: center;
+align-items: center;
+padding: 16px;
 }
