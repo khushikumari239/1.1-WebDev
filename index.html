@@ -1,85 +1,67 @@
-<!-- Visual Studio Code - Code Editor  -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>
-        Visual Studio Code - Code Editor
-    </title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Visual Studio Code - Code Editor</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
+<body style="background-color: #0D1117; margin: 0; padding: 0;">
 
-<body style="background-color: #0D1117;">
+  <!-- Top Nav -->
+  <div style="color: #c3d0e5; padding: 8px 200px; display: flex; justify-content: space-between; align-items: center;">
+    <div style="display: flex; align-items: center;">
+      <img src="https://code.visualstudio.com/favicon.ico" width="20px" style="margin-right: 10px;">
+      <span style="font-size: 20px; font-weight: 600; margin-right: 20px;">Visual Studio Code</span>
 
-
-    <div
-        style="color : #c3d0e5; padding-left: 200px; padding-right: 200px; padding-top: 8px; padding-bottom: 8px; display:flex ; justify-content: space-between;">
-        <div>
-            <img src="https://code.visualstudio.com/favicon.ico " width="20px" style="padding-right: 10px" ;
-                padding-bottom: 5px; vertical-align: middle;">
-            <span style="font-size: 20px; font-weight: 600; ">Visual Studio Code
-                <span class="toplink "> Docs </span>
-                <span class="toplink "> Updates </span>
-                <span class="toplink "> Blog </span>
-                <span class="toplink "> API </span>
-                <span class="toplink "> Extension </span>
-                <span class="toplink "> FAQ</span>
-                <span class="toplink "> Search </span>
-                <span class="toplink "> Github Copilot</span>
-        </div>
-        <div>
-            <input type="text" placeholder="Search Docs">
-            <button> Download </button>
-        </div>
-
-
-    </div>
-    <br>
-    <div style="display: flex; justify-content: center;">
-        <div style="color: #9ba3b4;">
-            <!-- Try
-     <a target="_blank" href="https://code.visualstudio.com/docs/copilot/setup-simplified">
-         agent mode 
-    </a>in VS Code!  -->
-
-            <div class="hero-text" style="display: flex; justify-content: space-between;font-size: 72px; ">
-                <h1>Your code editor. Redefined with AI.</h1>
-            </div>
-
-            <div style="display: flex; justify-content: center; border-radius:4px ; font-size: 1.8rem; padding: 10px 20px; cursor: pointer;
-            font-weight: 600px; border: 0.800px;">
-                <button>Download for Windows</button>
-                <button>Try agent mode</button>
-            </div>
-            <div style="color:#4daafc ; display: flex; justify-content: center;">
-                <a class="secondlink " target="_blank" href="https://vscode.dev/ "> Web </a>
-
-                <a class="secondlink " target="_blank" href="https://code.visualstudio.com/insiders"> Insider edition
-                </a>
-                or
-                <a class="secondlink " target="_blank" href="https://code.visualstudio.com/Download"> other platform
-                </a>
-
-            </div>
-
-
-
-            <div class="BgImage" style="display: flex; justify-content:space-between; align-items: center;">
-
-                <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100%;">
-
-
-                    <video width="1008px" height="639px" controls
-                    style = "box-shadow : 0px 2px 16px 0px rgba(0 , 0, 0, 0.36)  ; border-radius: 9px; ">
-                        <source src="https://code.visualstudio.com/assets/home/hero-dark-sm.webm" type="video/mp4">
-
-                </div>
-
-            </div>
-        </div>
+      <span class="toplink">Docs</span>
+      <span class="toplink">Updates</span>
+      <span class="toplink">Blog</span>
+      <span class="toplink">API</span>
+      <span class="toplink">Extension</span>
+      <span class="toplink">FAQ</span>
+      <span class="toplink">Search</span>
+      <span class="toplink">GitHub Copilot</span>
     </div>
 
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <input type="text" placeholder="Search Docs" style="padding: 5px; border-radius: 4px; border: none;">
+      <button class="btn primary">Download</button>
+    </div>
+  </div>
 
+  <!-- Hero Section -->
+  <div style="display: flex; justify-content: center; text-align: center;">
+    <div>
+      <div class="hero-text" style="font-size: 56px;">
+        <h1>Your code editor. <br>Redefined with AI.</h1>
+      </div>
+
+      <!-- Buttons -->
+      <div class="button-group" style="justify-content: center; margin-top: 20px;">
+        <button class="btn primary">Download for Windows</button>
+        <button class="btn secondary">Try agent mode</button>
+      </div>
+
+      <!-- Links -->
+      <div style="color: #4daafc; display: flex; justify-content: center; margin-top: 12px; gap: 6px;">
+        <a class="secondlink" target="_blank" href="https://vscode.dev/">Web</a>,
+        <a class="secondlink" target="_blank" href="https://code.visualstudio.com/insiders">Insiders edition</a>, or
+        <a class="secondlink" target="_blank" href="https://code.visualstudio.com/Download">other platforms</a>
+      </div>
+
+      <!-- Video Box -->
+      <div class="BgImage" style="margin-top: 40px;">
+        <div style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+          <video width="1008px" height="639px" controls autoplay muted loop
+            style="box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.36); border-radius: 9px;">
+            <source src="https://code.visualstudio.com/assets/home/hero-dark-sm.webm" type="video/webm">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 
